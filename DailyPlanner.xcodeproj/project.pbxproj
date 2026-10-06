@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0865208A60659E39415CEF3D /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = FEC9C6087EBA25B4D5B72B40 /* GoogleMobileAds */; };
+		E70C230C3025A72500DBD42F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = E70C230B3025A72500DBD42F /* FirebaseAnalytics */; };
+		E70C230E3025A72500DBD42F /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = E70C230D3025A72500DBD42F /* FirebaseCore */; };
+		E70C23103025A72500DBD42F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E70C230F3025A72500DBD42F /* FirebaseFirestore */; };
+		E70C23123025A72500DBD42F /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = E70C23113025A72500DBD42F /* FirebaseRemoteConfig */; };
+		E71D68A13026DF8F00D7A3F4 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = E71D68A03026DF8F00D7A3F4 /* GoogleMobileAds */; };
+		E72DC0C630172C2200424691 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E72DC0C530172C2200424691 /* IQKeyboardManagerSwift */; };
+		E72DC0DD30175E9B00424691 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72DC0DC30175E9B00424691 /* WidgetKit.framework */; };
+		E72DC0DF30175E9B00424691 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72DC0DE30175E9B00424691 /* SwiftUI.framework */; };
+		E72DC0EA30175E9D00424691 /* DailyPlannerWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E72DC0DA30175E9B00424691 /* DailyPlannerWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E733C7353021DB3700CF9BD8 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E733C7343021DB3700CF9BD8 /* Lottie */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E72DC0E830175E9D00424691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E71CAA9F3012327E009C2C07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E72DC0D930175E9B00424691;
+			remoteInfo = DailyPlannerWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E72DC0EF30175E9D00424691 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E72DC0EA30175E9D00424691 /* DailyPlannerWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E71CAAA73012327E009C2C07 /* DailyPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E72DC0DA30175E9B00424691 /* DailyPlannerWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DailyPlannerWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E72DC0DC30175E9B00424691 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		E72DC0DE30175E9B00424691 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E73AA4F330248B50000935CA /* DailyPlannerWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DailyPlannerWidgetExtension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E715C7A23018D34D0032A803 /* Exceptions for "DailyPlannerWidget" folder in "DailyPlanner" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				DailyPlannerCalendarView.swift,
+				DailyPlannerPillGridView.swift,
+				DailyPlannerPillView.swift,
+				DailyPlannerProvider.swift,
+				DailyPlannerSmallView.swift,
+				DailyPlannerWeekView.swift,
+			);
+			target = E71CAAA63012327E009C2C07 /* DailyPlanner */;
+		};
+		E725B3FF3023516300CDFC87 /* Exceptions for "DailyPlanner" folder in "DailyPlanner" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E71CAAA63012327E009C2C07 /* DailyPlanner */;
+		};
+		E72DC0EB30175E9D00424691 /* Exceptions for "DailyPlannerWidget" folder in "DailyPlannerWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E72DC0D930175E9B00424691 /* DailyPlannerWidgetExtension */;
+		};
+		E72DC0F83017640600424691 /* Exceptions for "DailyPlanner" folder in "DailyPlannerWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Widget View/SharedModels.swift",
+			);
+			target = E72DC0D930175E9B00424691 /* DailyPlannerWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E71CAAA93012327E009C2C07 /* DailyPlanner */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E725B3FF3023516300CDFC87 /* Exceptions for "DailyPlanner" folder in "DailyPlanner" target */,
+				E72DC0F83017640600424691 /* Exceptions for "DailyPlanner" folder in "DailyPlannerWidgetExtension" target */,
+			);
+			path = DailyPlanner;
+			sourceTree = "<group>";
+		};
+		E72DC0E030175E9B00424691 /* DailyPlannerWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E715C7A23018D34D0032A803 /* Exceptions for "DailyPlannerWidget" folder in "DailyPlanner" target */,
+				E72DC0EB30175E9D00424691 /* Exceptions for "DailyPlannerWidget" folder in "DailyPlannerWidgetExtension" target */,
+			);
+			path = DailyPlannerWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E71CAAA43012327E009C2C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72DC0C630172C2200424691 /* IQKeyboardManagerSwift in Frameworks */,
+				E733C7353021DB3700CF9BD8 /* Lottie in Frameworks */,
+				E70C230E3025A72500DBD42F /* FirebaseCore in Frameworks */,
+				E70C23123025A72500DBD42F /* FirebaseRemoteConfig in Frameworks */,
+				E70C23103025A72500DBD42F /* FirebaseFirestore in Frameworks */,
+				E70C230C3025A72500DBD42F /* FirebaseAnalytics in Frameworks */,
+				E71D68A13026DF8F00D7A3F4 /* GoogleMobileAds in Frameworks */,
+				0865208A60659E39415CEF3D /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72DC0D730175E9B00424691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72DC0DF30175E9B00424691 /* SwiftUI.framework in Frameworks */,
+				E72DC0DD30175E9B00424691 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E71CAA9E3012327E009C2C07 = {
+			isa = PBXGroup;
+			children = (
+				E73AA4F330248B50000935CA /* DailyPlannerWidgetExtension.entitlements */,
+				E71CAAA93012327E009C2C07 /* DailyPlanner */,
+				E72DC0E030175E9B00424691 /* DailyPlannerWidget */,
+				E72DC0DB30175E9B00424691 /* Frameworks */,
+				E71CAAA83012327E009C2C07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E71CAAA83012327E009C2C07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E71CAAA73012327E009C2C07 /* DailyPlanner.app */,
+				E72DC0DA30175E9B00424691 /* DailyPlannerWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E72DC0DB30175E9B00424691 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E72DC0DC30175E9B00424691 /* WidgetKit.framework */,
+				E72DC0DE30175E9B00424691 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E71CAAA63012327E009C2C07 /* DailyPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E71CAAB23012327F009C2C07 /* Build configuration list for PBXNativeTarget "DailyPlanner" */;
+			buildPhases = (
+				E71CAAA33012327E009C2C07 /* Sources */,
+				E71CAAA43012327E009C2C07 /* Frameworks */,
+				E71CAAA53012327E009C2C07 /* Resources */,
+				E72DC0EF30175E9D00424691 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E72DC0E930175E9D00424691 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E71CAAA93012327E009C2C07 /* DailyPlanner */,
+			);
+			name = DailyPlanner;
+			packageProductDependencies = (
+				E72DC0C530172C2200424691 /* IQKeyboardManagerSwift */,
+				E733C7343021DB3700CF9BD8 /* Lottie */,
+				E70C230B3025A72500DBD42F /* FirebaseAnalytics */,
+				E70C230D3025A72500DBD42F /* FirebaseCore */,
+				E70C230F3025A72500DBD42F /* FirebaseFirestore */,
+				E70C23113025A72500DBD42F /* FirebaseRemoteConfig */,
+				E71D68A03026DF8F00D7A3F4 /* GoogleMobileAds */,
+				FEC9C6087EBA25B4D5B72B40 /* GoogleMobileAds */,
+			);
+			productName = DailyPlanner;
+			productReference = E71CAAA73012327E009C2C07 /* DailyPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E72DC0D930175E9B00424691 /* DailyPlannerWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E72DC0EC30175E9D00424691 /* Build configuration list for PBXNativeTarget "DailyPlannerWidgetExtension" */;
+			buildPhases = (
+				E72DC0D630175E9B00424691 /* Sources */,
+				E72DC0D730175E9B00424691 /* Frameworks */,
+				E72DC0D830175E9B00424691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E72DC0E030175E9B00424691 /* DailyPlannerWidget */,
+			);
+			name = DailyPlannerWidgetExtension;
+			productName = DailyPlannerWidgetExtension;
+			productReference = E72DC0DA30175E9B00424691 /* DailyPlannerWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E71CAA9F3012327E009C2C07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					E71CAAA63012327E009C2C07 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					E72DC0D930175E9B00424691 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = E71CAAA23012327E009C2C07 /* Build configuration list for PBXProject "DailyPlanner" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				ru,
+				ar,
+				nl,
+				de,
+				hi,
+				tr,
+				es,
+				ko,
+				it,
+				ja,
+				pt,
+			);
+			mainGroup = E71CAA9E3012327E009C2C07;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E72DC0C430172C2200424691 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				E733C7333021DB3700CF9BD8 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				E70C230A3025A72500DBD42F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				E71D689F3026DF8F00D7A3F4 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E71CAAA83012327E009C2C07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E71CAAA63012327E009C2C07 /* DailyPlanner */,
+				E72DC0D930175E9B00424691 /* DailyPlannerWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E71CAAA53012327E009C2C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72DC0D830175E9B00424691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E71CAAA33012327E009C2C07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72DC0D630175E9B00424691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E72DC0E930175E9D00424691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E72DC0D930175E9B00424691 /* DailyPlannerWidgetExtension */;
+			targetProxy = E72DC0E830175E9D00424691 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E71CAAB03012327F009C2C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E71CAAB13012327F009C2C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E71CAAB33012327F009C2C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon1 AppIcon2 AppIcon3";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = DailyPlanner/DailyPlanner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4GYUJH2YV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyPlanner/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "DailyPlanner needs access to your camera to take a profile photo.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "DailyPlanner reads your health data to display your activity progress.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "DailyPlanner saves your habit progress (steps, water, calories, etc.) to Apple Health.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow access to save your photos and videos to your Photo Library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "DailyPlanner needs access to your photo library to select a profile photo.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hevin.habitmaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E71CAAB43012327F009C2C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon1 AppIcon2 AppIcon3";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = DailyPlanner/DailyPlanner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4GYUJH2YV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyPlanner/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "DailyPlanner needs access to your camera to take a profile photo.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "DailyPlanner reads your health data to display your activity progress.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "DailyPlanner saves your habit progress (steps, water, calories, etc.) to Apple Health.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow access to save your photos and videos to your Photo Library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "DailyPlanner needs access to your photo library to select a profile photo.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hevin.habitmaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E72DC0ED30175E9D00424691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DailyPlannerWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4GYUJH2YV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyPlannerWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DailyPlannerWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hevin.habitmaster.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E72DC0EE30175E9D00424691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DailyPlannerWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4GYUJH2YV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyPlannerWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DailyPlannerWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hevin.habitmaster.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E71CAAA23012327E009C2C07 /* Build configuration list for PBXProject "DailyPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71CAAB03012327F009C2C07 /* Debug */,
+				E71CAAB13012327F009C2C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E71CAAB23012327F009C2C07 /* Build configuration list for PBXNativeTarget "DailyPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71CAAB33012327F009C2C07 /* Debug */,
+				E71CAAB43012327F009C2C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E72DC0EC30175E9D00424691 /* Build configuration list for PBXNativeTarget "DailyPlannerWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E72DC0ED30175E9D00424691 /* Debug */,
+				E72DC0EE30175E9D00424691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		30172D96B155521231B37CF2 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.8.0;
+			};
+		};
+		E70C230A3025A72500DBD42F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.17.0;
+			};
+		};
+		E71D689F3026DF8F00D7A3F4 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.7.0;
+			};
+		};
+		E72DC0C430172C2200424691 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.0;
+			};
+		};
+		E733C7333021DB3700CF9BD8 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E70C230B3025A72500DBD42F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E70C230A3025A72500DBD42F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		E70C230D3025A72500DBD42F /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E70C230A3025A72500DBD42F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		E70C230F3025A72500DBD42F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E70C230A3025A72500DBD42F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		E70C23113025A72500DBD42F /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E70C230A3025A72500DBD42F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		E71D68A03026DF8F00D7A3F4 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E71D689F3026DF8F00D7A3F4 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		E72DC0C530172C2200424691 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E72DC0C430172C2200424691 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		E733C7343021DB3700CF9BD8 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E733C7333021DB3700CF9BD8 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		FEC9C6087EBA25B4D5B72B40 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30172D96B155521231B37CF2 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E71CAA9F3012327E009C2C07 /* Project object */;
+}

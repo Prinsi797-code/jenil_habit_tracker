@@ -1,0 +1,149 @@
+ now
+*Complete \(goalAmountDescription) each day
+--
+--%
+.
+/\(Int(viewModel.goal)) \(unit)
+/\(Int(viewModel.goal)) \(viewModel.goalUnitLabel)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+AC
+About
+Activate
+Add
+Afternoon
+All
+All Habits
+Appearance(\(themeManager.appearance.rawValue.capitalized))
+Archive
+Archived
+Become better every day!
+Build
+Camera
+Cancel
+Cancel anytime. Terms and Privacy Policy apply.
+Chart Type
+Color
+Continue
+Couldn't load quotes
+Current Streak
+Custom Habit
+Daily Quote
+Day-Long
+Delete
+Delete Habit
+Delete \(habit.title)?
+Disable memo
+Done
+Done Today
+Dynamic Island
+Edit
+End Date
+Evening
+Every Day
+Export
+Export Option
+Fix Stats
+Get a bit better everyday
+Goal
+Goal Value
+Habit Bar size
+Habit Idea
+Habit Term
+Habit Tracker
+Habits
+Health Link
+Hold and drag
+How you feel now?
+Icon
+In use
+Input your memo here
+Language
+Log Sleep
+Mark as done
+Mood Records
+Moods
+More
+More Settings
+Morning
+New Habit
+No End
+No Quotes
+No data
+No data yet
+No habits data
+No habits yet
+No mood entries logged for this period
+No mood records yet
+No units found
+Nothing logged yet today.
+OK
+Our Apps
+Over your limit
+Overall
+PERFECT
+Photo Gallery
+Pro
+Quit
+Reset All Data
+Reset app
+Retry
+Save
+Save this image to your Photos?
+See All
+Settings
+Show memo after completion
+Show menu
+Start Date
+Start tracking your mood to see\nyour records here.
+Steps
+Tap + to add your first habit
+Tap to write a note
+Theme
+Theme Color
+This device doesn't support camera access.
+This removes the habit and all of its check-ins.
+Time
+Time Range
+Tips & Insights
+Unit
+Unlock 
+Upgrade to Premium
+View
+Weekdays
+Weekends
+Widget Theme
+Yearly Status
+\(Int(entry.value)) / \(Int(task?.goal ?? entry.value)) \(entry.unit)
+\(Int(round(Double(entry.days) / Double(max(total, 1)) * 100)))%
+\(Int(v))%
+\(Int(viewModel.current))
+\(cal.component(.day, from: entry.date))
+\(count)D
+\(count)d
+\(day)
+\(day.date)
+\(day.dayNumber)
+\(entry.data.dayNumber)
+\(entry.data.habits.filter { $0.fraction >= 1 }.count)
+\(entry.data.habits.map(\.streakDays).max() ?? 0)
+\(entry.days) days
+\(goalAmount) \(goalUnit)
+\(record.day)
+\(task.streakDays) Day\(task.streakDays == 1 ? 
+\(total)
+days
+limit \(Int(viewModel.goal)) \(viewModel.goalUnitLabel)
+to rearrange habits.
+👑
+🔥
+🙂
+🛌
